@@ -7,26 +7,24 @@ const services = [
     {
         num: '01',
         title: "Développement Web",
-        description: 'loermloermloermloerm loermloermloermloerm' +
-            'loerm loerm loerm loerm loermloermloermloermloermloerm',
+        description: 'Je conçois des solutions web sur mesure, alliant design intuitif et technologies modernes,' +
+            ' pour offrir des expériences utilisateur fluides et performantes, adaptées aux besoins spécifiques de chaque client.',
         href: ""
     }, {
         num: '02',
         title: "UI/UX Design",
-        description: 'loermloermloermloerm loermloermloermloerm' +
-            'loerm loerm loerm loerm loermloermloermloermloermloerm',
+        description: 'En utilisant Figma, je conçois des interfaces UI/UX modernes et ergonomiques, avec une attention particulière à l\'expérience utilisateur, afin de garantir une navigation fluide et une interaction intuitive sur chaque plateforme.',
         href: ""
     }, {
         num: '03',
         title: "Logo Desin",
-        description: 'loermloermloermloerm loermloermloermloerm' +
-            'loerm loerm loerm loerm loermloermloermloermloermloerm',
+        description: 'Je crée des logos uniques et mémorables qui reflètent l’identité de votre marque,' +
+            ' tout en assurant une simplicité et une reconnaissance visuelle immédiate.',
         href: ""
     }, {
         num: '04',
         title: "Référencement",
-        description: 'loermloermloermloerm loermloermloermloerm' +
-            'loerm loerm loerm loerm loermloermloermloermloermloerm',
+        description: 'J\'optimise votre site pour améliorer son positionnement sur les moteurs de recherche, augmentant ainsi sa visibilité et son trafic organique.',
         href: ""
     },
 ]
@@ -51,7 +49,7 @@ const Services = () => {
                                         {service.num}
                                     </div>
                                     <Link href={service.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent
-                                    transition-all duration-500 flex justify-between items-center hover:-rotate-45">
+                                    transition-all duration-500 flex justify-center items-center hover:-rotate-45">
                                         <BsArrowDownRight className="text-primary text-3xl"/>
                                     </Link>
                                 </div>
