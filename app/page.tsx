@@ -5,7 +5,7 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import Services from "@/app/services/page";
 import Portfolio from "@/app/portfolio/page";
-import Link from "next/Link";
+import Link from "next/link";
 
 
 
