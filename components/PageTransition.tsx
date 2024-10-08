@@ -1,13 +1,15 @@
 "use client";
-import {AnimatePresence, motion} from "framer-motion";
-import {usePathname} from "next/navigation";
+import { AnimatePresence, motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 import { ReactNode } from "react";  // Import ReactNode
 
+// Define the type for the props of the PageTransition component
 type PageTransitionProps = {
-    children: ReactNode;  // Define the type of children
+    children: ReactNode;  // Specify that children is of type ReactNode
 };
 
-const PageTransition = ({children}: PageTransitionProps) => {
+// Use the defined props type in the function signature
+const PageTransition = ({ children }: PageTransitionProps) => {
     const pathname = usePathname();
     return (
         <AnimatePresence>
