@@ -10,7 +10,7 @@ const config: Config = {
 	prefix:"",
         theme: {
             container: {
-                centre: true,
+                center: true,
             padding: "15px",
 
         },

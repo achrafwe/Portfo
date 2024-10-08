@@ -5,7 +5,11 @@ const socials = [
     {icon: <FaGithub/>,path:'https://github.com/achrafwe'},
     {icon: <FaLinkedin/>,path:'https://www.linkedin.com/in/achraf-elkalchy/'},
 ]
-const  Social =({containerStyles, iconStyles})=> {
+type SocialProps = {
+    containerStyles: string;
+    iconStyles: string;
+};
+const  Social =({containerStyles, iconStyles}: SocialProps)=> {
     return(
         <div className={containerStyles}>
             {socials.map((item,index)=>{
