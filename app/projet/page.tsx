@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipTrigger, TooltipProvider } from "@/comp
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
-import { Swiper as SwiperCore } from 'swiper';  // Import Swiper core type
+import { Swiper as SwiperCore } from 'swiper';  
 
 const projets = [
   {
@@ -17,7 +17,7 @@ const projets = [
     title: "Développeur Web",
     description: "Conception et implémentation d'une plateforme qui répond au défi de la digitalisation du circuit médical pour des soins de qualité.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }, { name: "Php" }],
-    image: '/assets/projets/esante.png',
+    image: '/Portfo/assets/projets/esante.PNG',
     live: "https://esante.co.ma",
     github: "",
   },
@@ -27,7 +27,7 @@ const projets = [
     title: "Développeur Web",
     description: "Implémentation d'un site web pour la visibilité d'agence et ses clients.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }, { name: "Php" }],
-    image: "/assets/projets/optimumstrategy.jpeg",
+    image: "/Portfo/assets/projets/optimumstrategy.JPEG",
     live: "https://optimumstrategis.com",
     github: "",
   },
@@ -36,7 +36,6 @@ const projets = [
 const Projet = () => {
   const [projet, setProject] = useState(projets[0]);
 
-  // Type the swiper parameter explicitly
   const handleSlideChange = (swiper: SwiperCore) => {
     const currentIndex = swiper.activeIndex;
     setProject(projets[currentIndex]);

@@ -7,6 +7,7 @@ import {
     FaReact,
     FaFigma,
     FaPhp, FaJs,
+    FaLeaf,FaGit,FaWordpress,FaLaravel,
 } from "react-icons/fa";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
@@ -40,7 +41,7 @@ const about = {
         },
         {
             fieldName: "Langue",
-            fieldValue: "Anglais, Français, Arabe"
+            fieldValue: "Anglais, Français, Arabe, Russe"
         },
 
     ]
@@ -99,7 +100,7 @@ const education = {
 
 const skills = {
     title: "Mes compétences",
-    description: "c m p é t e n c e ",
+    description: "Une combinaison unique de compétences techniques et interpersonnelles, axées sur l'innovation et la résolution de problèmes",
     skillist: [
         {
             icon: <FaHtml5/>,
@@ -116,16 +117,34 @@ const skills = {
         {
             icon: <FaPhp/>,
             name: "Php",
-        }, {
+        },
+        {
+            icon: <FaLaravel/>,
+            name: "Laravel",
+        },
+         {
             icon: <FaReact/>,
             name: "React.js",
         }, {
             icon: <FaJava/>,
             name: "java",
-        }, {
+        }, 
+        {
+            icon: <FaLeaf/>,
+            name: "SpringBoot",
+        },{
             icon: <FaFigma/>,
             name: "Figma",
         },
+        {
+            icon: <FaGit/>,
+            name: "Git",
+        },
+        {
+            icon: <FaWordpress/>,
+            name: "Wordpress",
+        },
+       
 
     ]
 }

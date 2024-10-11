@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
-     "clean": "rimraf out"
+   "deploy": "gh-pages -b master -d build",
+    "clean": "rimraf out"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.1.0",
