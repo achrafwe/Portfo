@@ -16,8 +16,8 @@ const projets = [
     category: "Fullstack",
     title: "Développeur Web",
     description: "Conception et implémentation d'une plateforme qui répond au défi de la digitalisation du circuit médical pour des soins de qualité.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }, { name: "Php" }],
-    image: '/Portfo/assets/projets/esante.PNG',
+    stack: [{name: "React.js"},{name:"Laravel"},{name:"Github"},{name:"Agile"},{name:"Material UI"}],
+    image: '/Portfo/assets/projets/esante.png',
     live: "https://esante.co.ma",
     github: "",
   },
@@ -27,7 +27,7 @@ const projets = [
     title: "Développeur Web",
     description: "Implémentation d'un site web pour la visibilité d'agence et ses clients.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }, { name: "Php" }],
-    image: "/Portfo/assets/projets/optimumstrategy.JPEG",
+    image: "/Portfo/assets/projets/optimumstrategy.jpeg",
     live: "https://optimumstrategis.com",
     github: "",
   },
@@ -58,7 +58,7 @@ const Projet = () => {
                 {projet.category} projet
               </h2>
               <p className="text-white/60">{projet.description}</p>
-              <ul className="flex gap-4">
+              <ul className="flex gap-3">
                 {projet.stack.map((item, index) => (
                   <li key={index} className="text-xl text-accent">
                     {item.name}
