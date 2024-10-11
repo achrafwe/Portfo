@@ -28,6 +28,7 @@ const projets = [
     description: "Implémentation d'un site web pour la visibilité d'agence et ses clients.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }, { name: "Php" }],
     image: "/Portfo/assets/projets/optimumstrategy.jpeg",
+    image: "/Portfo/assets/projets/optimumstrategy.jpeg",
     live: "https://optimumstrategis.com",
     github: "",
   },
