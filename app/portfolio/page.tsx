@@ -76,7 +76,7 @@ const experience = {
 const education = {
     icon: '/assets/portfolio/',
     title: 'Mes educations',
-    description: "je vais voir ce que je peut maittre ic aprés",
+    description: "",
     items: [
         {
             institution: "Ensim",
