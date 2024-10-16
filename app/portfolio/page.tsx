@@ -40,7 +40,7 @@ const about = {
             fieldValue: "Available"
         },
         {
-            fieldName: "Langue",
+            fieldName: "Langues",
             fieldValue: "Anglais, Français, Arabe, Russe"
         },
 
@@ -75,12 +75,12 @@ const experience = {
 
 const education = {
     icon: '/assets/portfolio/',
-    title: 'Mes educations',
+    title: 'Education',
     description: "",
     items: [
         {
             institution: "Ensim",
-            degre: "Interactions Personne-Système(IPS)",
+            degre: "Informatique: Intéractions Personne-Système(IPS)",
             duration: "2022-Présent",
 
         }, {
