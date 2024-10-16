@@ -15,17 +15,17 @@ import {ScrollArea} from "@/components/ui/scroll-area";
 import {motion} from "framer-motion";
 
 const about = {
-    title: "A propos de moi",
+    title: "À propos de moi",
     description: "Passionné par le développement web, je suis un développeur full stack dédié à la création d'interfaces élégantes et intuitives. Je cherche actuellement un stage de fin d'études pour mettre en pratique mes compétences en ingénierie et contribuer à des projets innovants. Mon objectif est de concevoir des expériences utilisateur" +
-        " mémorables, qui allient créativité et technologie pour une satisfaction optimale",
+        " mémorables, qui allient créativité et technologie pour une satisfaction optimale.",
     info: [
         {
             fieldName: "je suis",
             fieldValue: "Achraf Elkalchy"
         },
         {
-            fieldName: "Experience",
-            fieldValue: "+1 Ans"
+            fieldName: "Expérience",
+            fieldValue: "+1 An"
         },
         {
             fieldName: "LinkedIn",
@@ -49,7 +49,7 @@ const about = {
 
 const experience = {
     icon: '/assets/portfolio/',
-    title: 'Mes experiences',
+    title: 'Mes expériences',
     description: "Au fil des années, j'ai eu l'opportunité de collaborer " +
         "avec diverses entreprises en tant que développeur web, me permettant de renforcer mes compétences techniques et de contribuer à des projets innovants.",
     items: [
@@ -61,12 +61,12 @@ const experience = {
         }, {
             company: "Optimum Strategy",
             position: "Développeur web",
-            duration: "Juillet-Aoùt 2019 (2 mois)",
+            duration: "Juillet-Août 2019 (2 mois)",
 
         }, {
             company: "Multinfra",
             position: "Développeur web",
-            duration: "Aoùt 2018 (un mois)",
+            duration: "Août 2018 (un mois)",
 
         },
 
@@ -75,7 +75,7 @@ const experience = {
 
 const education = {
     icon: '/assets/portfolio/',
-    title: 'Education',
+    title: 'Éducation',
     description: "",
     items: [
         {
@@ -100,7 +100,7 @@ const education = {
 
 const skills = {
     title: "Mes compétences",
-    description: "Une combinaison unique de compétences techniques et interpersonnelles, axées sur l'innovation et la résolution de problèmes",
+    description: "Une combinaison unique de compétences techniques et interpersonnelles, axées sur l'innovation et la résolution de problèmes.",
     skillist: [
         {
             icon: <FaHtml5/>,
@@ -161,10 +161,10 @@ const Portfolio = () => {
                 <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0
                     gap-6">
-                        <TabsTrigger value="experience">Experiences</TabsTrigger>
-                        <TabsTrigger value="education">Educations</TabsTrigger>
+                        <TabsTrigger value="experience">Expériences</TabsTrigger>
+                        <TabsTrigger value="education">Éducation</TabsTrigger>
                         <TabsTrigger value="skills">Compétences</TabsTrigger>
-                        <TabsTrigger value="about">Apropos de moi</TabsTrigger>
+                        <TabsTrigger value="about">À propos de moi</TabsTrigger>
                     </TabsList>
                     <div className="min-h-[70vh] w-full">
                         <TabsContent value="experience" className="w-full ">
