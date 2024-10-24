@@ -22,7 +22,7 @@ const Home = () => {
                             je suis prêt à relever de nouveaux défis en développement full stack.
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
-                            <Link href="https://drive.google.com/file/d/15YTiPCd42CpFoM_8ER-_SAi0jF5LKg0I/view?usp=sharing">
+                            <Link href="https://drive.google.com/file/d/1Cs8qrhLxF_1_RU849_LBfO9mHuEJ2M14/view?usp=sharing">
                             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" >
                            <span className="flex items-center gap-2">
                                Télacharger CV
