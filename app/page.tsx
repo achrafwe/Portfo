@@ -15,7 +15,7 @@ const Home = () => {
                     <div className="text-center xl:text-left order-2 xl:order-none">
 
                         <h1 className="h1 mb-6">
-                            Bonjour je suis <br/> <span className="text-accent">Achraf Elkalchy</span>
+                            Bonjour, je suis <br/> <span className="text-accent">Achraf Elkalchy</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-white/80">Passionné par l'innovation technologique, je crée des expériences
                             web immersives et élégantes, alliant créativité et performance. En quête d'un stage de fin d’études pour mars 2025,
