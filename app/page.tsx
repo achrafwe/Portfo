@@ -18,7 +18,7 @@ const Home = () => {
                             Bonjour, je suis <br/> <span className="text-accent">Achraf Elkalchy</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-white/80">Passionné par l'innovation technologique, je crée des expériences
-                            web immersives et élégantes, alliant créativité et performance. En quête d'un stage de fin d’études pour mars 2025,
+                            web immersives et élégantes, alliant créativité et performance,
                             je suis prêt à relever de nouveaux défis en développement full stack.
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
