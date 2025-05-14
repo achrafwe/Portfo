@@ -17,9 +17,11 @@ const Home = () => {
                         <h1 className="h1 mb-6">
                             Bonjour, je suis <br/> <span className="text-accent">Achraf Elkalchy</span>
                         </h1>
-                        <p className="max-w-[500px] mb-9 text-white/80">Passionné par l'innovation technologique, je crée des expériences
-                            web immersives et élégantes, alliant créativité et performance,
-                            je suis prêt à relever de nouveaux défis en développement full stack.
+                        <p className="max-w-[500px] mb-9 text-white/80">Actuellement analyste développeur chez Vinci Energies, j’interviens sur des projets en utilisant SAP SAC Planning,
+dans un environnement collaboratif piloté par la méthode Kanban. Curieux, rigoureux et orienté solution, je mets mes
+compétences au service de la qualité logicielle et de l’efficacité des processus métiers. En recherche d’un CDI à
+partir du 01/10/2025, je souhaite intégrer une équipe dynamique où je pourrai continuer à évoluer techniquement et
+contribuer à des projets à forte valeur ajoutée.
                         </p>
                         <div className="flex flex-col xl:flex-row items-center gap-8">
                             <Link href="https://drive.google.com/file/d/1Cs8qrhLxF_1_RU849_LBfO9mHuEJ2M14/view?usp=sharing">
